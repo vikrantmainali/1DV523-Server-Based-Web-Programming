@@ -1,2 +1,2 @@
 # 1DV523
-Server-based web programming
+Assignments from the 1DV523 Server-based web programming course
