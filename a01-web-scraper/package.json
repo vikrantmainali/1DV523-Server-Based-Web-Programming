@@ -1,0 +1,35 @@
+{
+  "name": "vm222cv-examination-1",
+  "version": "1.0.0",
+  "description": "Web scraper (Assigment 1) for 1DV523 Server-Based  Web Programming",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "npx eslint . || exit 0",
+    "lint:fix": "npx eslint . --fix || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:/1dv523/student/vm222cv/a01-web-scraper.git"
+  },
+  "author": "vm222cv",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "jsdom": "^16.5.3",
+    "query-selector": "^2.0.0"
+  },
+  "devDependencies": {
+    "@lnu/eslint-config": "^1.1.2",
+    "eslint": "^7.22.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^32.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^5.0.0"
+  },
+  "eslintConfig": {
+    "extends": "@lnu"
+  }
+}
