@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1>Welcome to Snippets</h1>
+</head>
+
+<body>
+    {{#if session.loggedIn}}
+    <h3>Welcome {{session.username}}</h3>
+    <a href="/create/">Create a snippet</a><br />
+    <a href="/read/">Read, Update or Delete snippets</a><br />
+    <a href="/logout/">Logout</a><br />
+    {{else}}
+    <h4>This is the starting page, you must be logged in to create, delete and update snippets. You can view snippets
+        without being logged in</h4><br />
+    <a href="/login/">Login</a><br />
+    <a href="/register/">Register</a><br />
+    <a href="/read/">Read snippets</a><br />
+    {{/if}}
+
+</body>
+
+</html>

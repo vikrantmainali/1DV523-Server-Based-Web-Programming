@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  background-color: cadetblue;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  text-align: center;
+}
+
+
+h1 {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.read {
+  background-color: rgba(219, 209, 209, 0.459);
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.register,
+.login {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.login input,
+.register input {
+  width: 100%;
+  padding: 12px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+}
+
+ul {
+  text-align: center;
+}
+
+textarea {
+    margin: 0px;
+    width: 475px;
+    height: 210px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
